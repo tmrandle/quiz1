@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	boxsizing: border-box;
+}
+
+
+body{
+	background-image: url("assets/dot.png");
+}
+
+#mainWrapper{
+	width: 960px;
+	height: 100%;
+	margin: 0px auto;
+}
+
+header{
+    height: 200px;
+    width: 960px;
+    margin: 20px 0px 0px 0px;
+    background-image: url("assets/header_bkg.png");
+    border: thin solid #F3F3F3;
+    border-radius: 10px;
+    font-family: 'Sriracha';
+    font-size: 2.5em;
+    color: rgba(204,162,222,1.00);
+}
+
+header h1{
+	text-align: center;
+}
+
+nav{
+	height: 450px;
+	width: 300px;
+	margin: 10px 10px 10px 10px;
+	padding: 10px;
+	background-color: coral;
+	float: left;
+}
+
+#someSection{
+	height: 450px;
+	width: 580px;
+	margin: 10px;
+	padding: 10px;
+	background-color: lightgreen;
+	float: left;
+}
+
+#anotherDiv{
+	height: 200px;
+	width: 575px;
+	margin: 0px;
+	background-color: lightblue;
+}
+
+footer{
+	height: 30px;
+	width: 960px;
+	background-color: mediumpurple;
+	clear: both;
+}
+
+
+
